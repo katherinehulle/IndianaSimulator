@@ -1,0 +1,93 @@
+body {
+    margin:0;
+    height: 100%;
+}
+
+table {
+    width:100%;
+    height: auto;
+    border-collapse: collapse;
+}
+tr {
+    height:auto;
+}
+
+td {
+    background-color: yellow;
+    width:100px;
+    height:100px;
+
+    border-style: solid;
+    border-color: black;
+}
+
+.player {
+    position: absolute;
+
+    color: lime;
+    font-size: 40px;
+
+    left: 5px;
+    top: 5px;
+
+    background-image: url(animated-tractor-image-0017.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    z-index: 10;
+
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#player2 {
+    z-index: 5;
+    background-image: url(animated-tractor-image-0017.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    filter: invert();
+}
+
+.scoreBoard {
+    display:flex;
+    flex-direction: row;
+
+    width:100%;
+    height: auto;
+
+    font-size: 30px;
+    font-family: 'helvantica neue';
+
+}
+
+.scoreBoard > * {
+    flex: 1;
+}
+
+.noCorn {
+  background-image: url(07MNd.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: brown;
+}
+
+.corn {
+  background-image: url(typography-with-corn-texture-stock-photo-281476.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: yellow;
+}
+
+.primeCorn {
+  background-image: url(Mega-Prime-Whole-Kernel-Corn-2840g.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  background-color: orange;
+}
